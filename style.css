@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0759c9;
+    color: white;
+}
+
+.navbar {
+    height: 80px;
+    background: #063b91;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.logo h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.logo span {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #f5d58a;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+.visit-button {
+    border: 2px solid #f5d58a;
+    padding: 14px 20px;
+    color: #f5d58a;
+}
+/* Bible Verse Bar */
+.verse-bar {
+    background: #f6d77a;
+    color: #263858;
+    padding: 16px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.verse-bar p {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.verse-bar a {
+    color: #263858;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Our Story Section */
+.our-story {
+    background: #0759c9;
+    color: white;
+    min-height: 500px;
+    padding: 70px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* Left side */
+.story-text {
+    width: 50%;
+}
+
+.section-label {
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.story-text h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    line-height: 1.1;
+    margin: 0 0 25px;
+}
+
+.story-text p {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+/* Right side */
+.story-image {
+    width: 45%;
+}
+
+.story-image img {
+    width: 100%;
+    display: block;
+}
+
+/* Fine-tuning the Our Story section */
+.our-story {
+    padding: 80px 8%;
+}
+
+.story-text h1 {
+    font-size: 48px;
+    line-height: 1.05;
+}
+
+.story-text p {
+    max-width: 520px;
+}
+
+.story-image img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+/*Sermon Section*/
+.sermons {
+    background-color: #0875c9;
+    color: white;
+    padding: 80px 8%;
+    text-align: center;
+}
+
+.sermons .section-label {
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.sermons h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    margin-bottom: 42px;
+}
+
+.sermon-content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.sermon-content h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.sermon-content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+/*Event Section*/
+.events{
+    background-color: #087fd3;
+    color: white;
+    padding: 80px 7%;
+    text-align: center;
+}
+
+.events .section-label {
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.events h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    margin-bottom: 45px;
+}
+
+.events-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.event-card {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 30px;
+    text-align: left;
+    min-height: 200px;
+}
+
+.event-card h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.event-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.event-card span {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/*Give Section*/
+.give {
+    text-align: center;
+    padding: 70px 20px;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.give .section-label {
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.give h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.give p {
+    max-width: 700px;
+    margin: 0 auto 25px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.give-button {
+    display: inline-block;
+    padding: 14px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-weight: bold;
+}
