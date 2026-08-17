@@ -1,12 +1,12 @@
 * {
     margin: 0;
-    padding: 0
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: #0759c9;
+    background: #0B2A5B;
     color: white;
 }
 
@@ -27,7 +27,7 @@ body{
 .logo span {
     font-size: 10px;
     letter-spacing: 2px;
-    color: #f5d58a;
+    color: #FFFFFF;
 }
 
 nav a {
@@ -37,9 +37,9 @@ nav a {
     font-weight: bold;
 }
 .visit-button {
-    border: 2px solid #f5d58a;
+    border: 2px solid #0B2A5B;
     padding: 14px 20px;
-    color: #f5d58a;
+    color: #FFFFFF;
 }
 /* Bible Verse Bar */
 .verse-bar {
@@ -68,7 +68,7 @@ nav a {
 
 /* Our Story Section */
 .our-story {
-    background: #0759c9;
+    background: #0B2A5B;
     color: white;
     min-height: 500px;
     padding: 70px 8%;
@@ -135,7 +135,7 @@ nav a {
 
 /*Sermon Section*/
 .sermons {
-    background-color: #0875c9;
+    background-color: #0B2A5B;
     color: white;
     padding: 80px 8%;
     text-align: center;
@@ -172,7 +172,7 @@ nav a {
 }
 /*Event Section*/
 .events{
-    background-color: #087fd3;
+    background-color: #0B2A5B;
     color: white;
     padding: 80px 7%;
     text-align: center;
@@ -258,6 +258,106 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 }
+
+/*=========================
+  HOME / HERO SECTION
+  ========================= */
+
+  .hero {
+    position: relative;
+    min-height: 90vh;
+    background-image:
+    url("Church-view.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(3, 20, 55, 0.78);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 750px;
+    padding: 80px 60px;
+    color: white;
+  }
+
+.hero-content h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 64px;
+    line-height: 1.05;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hero-content h1 span {
+    color: #f5d58a;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 650px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 15px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 4px;
+    transition: 0.3s ease;
+}
+
+.primary-btn {
+    background: #f5d58a;
+    color: #063b91;
+}
+
+.primary-btn:hover {
+    background: white;
+}
+.secondary-btn {
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+}
+
+.secondary-btn:hover {
+    background: white;
+    color: #063b91;
+}
+
+.scroll-indicator {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+@media (max-width:768px) {
+    nav {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    nav a {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+}
+
 /* ==== MIBILE FIX ==== */
 @media (max-width: 768px) {
     /* NAVIGATION */
