@@ -464,3 +464,17 @@ nav a {
     font-size: 11px;
 }
 }
+/*===== mobile event fix ===== */
+@media (max-width: 768px) {
+
+.events-container {
+grid-template-columns: 1fr;
+width: 100%;
+gap: 20px;
+}
+.event-card {
+width: 100%;
+box-sizing: border-box;
+padding: 25px;
+}
+}
