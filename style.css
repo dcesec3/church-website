@@ -265,7 +265,7 @@ nav a {
 
   .hero {
     position: relative;
-    min-height: 90vh;
+    min-height: 82vh;
     background-image:
     url("Church-view.jpeg");
     background-size: cover;
@@ -278,22 +278,24 @@ nav a {
   .hero-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(3, 20, 55, 0.78);
+    background: linear-gradient(90deg, rgba(3,20,55,0.85)0%,
+     rgba(3,20,55,0.55)55%, 
+     rgba(3,20,55,035)100%);
   }
 
   .hero-content {
     position: relative;
     z-index: 2;
     max-width: 750px;
-    padding: 80px 60px;
+    padding: 80px 8%;
     color: white;
   }
 
 .hero-content h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 64px;
-    line-height: 1.05;
-    margin-bottom: 20px;
+    font-size: 58px;
+    line-height: 1.08;
+    margin-bottom: 24px;
     color: white;
 }
 
@@ -302,19 +304,19 @@ nav a {
 }
 
 .hero-content p {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.6;
     max-width: 650px;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
     color: white;
 }
 
 .hero-btn {
     display: inline-block;
-    padding: 15px 28px;
+    padding: 14px 26px;
     text-decoration: none;
     font-weight: bold;
-    border: 4px;
+    border: 3px;
     transition: 0.3s ease;
 }
 
@@ -423,4 +425,42 @@ nav a {
         height: auto;
         display: block;
     }
+
+/* HOME /HERO - MOBILE FIX */
+.hero {
+    min-height: 75vh;
+    background-image: url("Church-view.jpeg");
+    background-size: cover;
+}
+.hero-overlay {
+    background: rgba(3, 20, 55, 0.72);
+}
+.hero-content {
+    max-width: 100%;
+    padding: 70px 25px 80px;
+}
+.hero-content h1 {
+    font-size: 42px;
+    line-height: 1.05;
+    margin-bottom: 20px;
+}
+.hero-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+.hero-btn {
+    padding: 14px 22px;
+    font-size: 14px;
+}
+.scroll-indicator {
+    bottom: 15px;
+    font-size: 11px;
+}
 }
