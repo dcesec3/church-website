@@ -6,7 +6,6 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: #0B2A5B;
     color: white;
 }
 
@@ -41,10 +40,11 @@ nav a {
     padding: 14px 20px;
     color: #FFFFFF;
 }
+
 /* Bible Verse Bar */
 .verse-bar {
-    background: #f6d77a;
-    color: #263858;
+    background: #fdfeff;
+    color: #0a2555;
     padding: 16px 60px;
     display: flex;
     justify-content: space-between;
@@ -59,7 +59,7 @@ nav a {
 }
 
 .verse-bar a {
-    color: #263858;
+    color: #051c44;
     text-decoration: none;
     font-size: 12px;
     font-weight: bold;
@@ -68,8 +68,8 @@ nav a {
 
 /* Our Story Section */
 .our-story {
-    background: #0B2A5B;
-    color: white;
+    background: #fdfeff;
+    color: rgb(4, 13, 128);
     min-height: 500px;
     padding: 70px 8%;
     display: flex;
@@ -228,7 +228,7 @@ nav a {
 .give {
     text-align: center;
     padding: 70px 20px;
-    background: rgba(0, 0, 0, 0.08);
+    background: #fdfeff;
 }
 
 .give .section-label {
@@ -242,6 +242,7 @@ nav a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 42px;
     margin-bottom: 20px;
+    color: #0B2A5B;
 }
 
 .give p {
@@ -249,16 +250,19 @@ nav a {
     margin: 0 auto 25px;
     font-size: 16px;
     line-height: 1.6;
+    color: #0B2A5B;
 }
 
 .give-button {
     display: inline-block;
     padding: 14px 30px;
-    border: 1px solid rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(7, 3, 65, 0.6);
     text-decoration: none;
     font-weight: bold;
 }
-
+.payment-details h3 {
+color: #0B2A5B;
+}
 /*=========================
   HOME / HERO SECTION
   ========================= */
@@ -464,6 +468,7 @@ nav a {
     font-size: 11px;
 }
 }
+
 /*===== mobile event fix ===== */
 @media (max-width: 768px) {
 
