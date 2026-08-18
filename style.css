@@ -483,3 +483,10 @@ box-sizing: border-box;
 padding: 25px;
 }
 }
+.watch-service-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
