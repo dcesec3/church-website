@@ -532,6 +532,44 @@ padding: 25px;
     background-color: white;
     color: #063b91;
 }
+@media screen and (max-width: 600px) {
+
+    .navbar {
+        height: 70px;
+        padding: 0 10px;
+        flex-wrap: nowrap;
+    }
+
+    .logo h2 {
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+    .logo span {
+        font-size: 10px;
+    }
+
+    .navbar nav {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+
+    .navbar nav a {
+        font-size: 9px;
+        margin-left: 0;
+        white-space: nowrap;
+    }
+
+    .visit-button {
+        font-size: 8px !important;
+        padding: 8px 7px;
+        white-space: nowrap;
+    }
+}
+
 /* CHURCH LOGO - GIVE SECTION ONLY */
 .give {
     position: relative;
@@ -679,4 +717,42 @@ padding: 25px;
         padding: 60px 10%;
         font-size: 21px;
     }
+}
+/* ================================
+   LOCATION SECTION
+   ================================ */
+
+.location {
+    background: #0B2A5B;
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.location h2 {
+    font-size: 42px;
+    margin: 15px 0 25px;
+}
+
+.location p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+.location-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    background: #f5d58a;
+    color: #0B2A5B;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.location-button:hover {
+    background: white;
+    color: #0B2A5B;
 }
