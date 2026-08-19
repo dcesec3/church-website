@@ -490,3 +490,42 @@ padding: 25px;
     display: block;
     object-fit: contain;
 }
+.site-footer {
+    background-color: white;
+    color: #063b91;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.site-footer h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.site-footer p {
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    color: #063b91;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 16px;
+    border: 2px solid #063b91;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #063b91;
+    color: white;
+}
