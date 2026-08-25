@@ -58,7 +58,8 @@ nav a {
 .verse-bar p {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 20px;
+    line-height: 1.6;
 }
 
 .verse-bar a {
@@ -396,6 +397,26 @@ color: #0B2A5B;
         white-space: nowrap;
         margin: 0;
     }
+    .verse-bar {
+        padding: 20px 15px
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .verse-bar p {
+        width: 100%;
+        margin: 0;
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .verse-bar a {
+        align-self: center;
+        font-size: 13px;
+        }
+    
     /* OUR STORY */
     .our-story {
         display: flex;
