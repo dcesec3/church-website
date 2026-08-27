@@ -388,6 +388,82 @@ color: #0B2A5B;
         white-space: nowrap;
     }
 }
+/* =========================
+   COMPACT FOOTER
+   ========================= */
+
+.site-footer {
+    background-color: #063b91;
+    color: white;
+    text-align: center;
+    padding: 28px 20px 20px;
+    margin-top: 0;
+}
+
+.site-footer h3 {
+    margin: 0 0 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.social-title {
+    margin: 0 0 18px;
+    font-size: 15px;
+}
+
+/* Social media icons */
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: nowrap;
+}
+
+.social-links a {
+    width: 44px;
+    height: 44px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.3s ease;
+}
+
+.social-links a svg {
+    width: 23px;
+    height: 23px;
+    display: block;
+}
+
+.social-links a:hover {
+    background-color: white;
+    color: #063b91;
+}
+
+/* Divider */
+
+.footer-line {
+    width: 80%;
+    max-width: 900px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 22px auto 14px;
+}
+
+/* Copyright */
+
+.site-footer .copyright {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+}
 
 /* ==== MIBILE FIX ==== */
 @media (max-width: 768px) {
@@ -525,22 +601,6 @@ padding: 25px;
     object-fit: contain;
 }
 .site-footer {
-    background-color: #063b91;
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-    margin-top: 40px;
-}
-
-.site-footer h3 {
-    margin-bottom: 10px;
-    font-size: 22px;
-}
-
-.site-footer p {
-    margin-bottom: 20px;
-}
-.site-footer {
     padding: 24px 15px 18px;
 }
 
@@ -558,12 +618,13 @@ padding: 25px;
 }
 
 .social-links a {
-    width: 38px;
-    height: 38px;
+    width: 40px;
+    height: 40px;
 }
 
-.social-links a span {
-    font-size: 19px;
+.social-links a svg {
+    width: 21px;
+    height: 21px;
 }
 
 .footer-line {
@@ -573,29 +634,6 @@ padding: 25px;
 
 .site-footer .copyright {
     font-size: 12px;
-}
-
-.social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    flex-wrap: wrap;
-}
-
-.social-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px 16px;
-    border: 1px solid white;
-    border-radius: 6px;
-    transition: 0.3s;
-}
-
-.social-links a:hover {
-    background-color: white;
-    color: #063b91;
 }
 
 /* CHURCH LOGO - GIVE SECTION ONLY */
