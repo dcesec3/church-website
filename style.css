@@ -1516,127 +1516,14 @@ padding: 25px;
     width: 100% !important;
     clear: both !important;
 }
-/* =========================================
-   ABOUT US - TEXT DECORATION
-   ========================================= */
-
+/* ABOUT TEST */
 .our-story {
-    max-width: 100%;
-    padding: 80px 20px !important;
-    display: block !important;
-    text-align: left;
+    background: yellow !important;
 }
 
-/* Keep the existing logo watermark */
 .our-story .story-text {
-    max-width: 1000px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 2;
-}
-
-/* ABOUT US label */
-.our-story .section-label {
-    color: #063b91;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 4px;
-    margin-bottom: 18px;
-}
-
-/* Main headings */
-.our-story .story-text h2 {
-    color: #063b91;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 44px;
-    line-height: 1.15;
-    margin: 0 0 18px;
-}
-
-/* Theme and vision paragraphs */
-.our-story .story-text > p:not(.section-label):not(.theme-verse-text) {
-    max-width: 650px;
-    color: #333;
-    font-size: 17px;
-    line-height: 1.8;
-    margin-bottom: 35px;
-}
-
-/* Theme Verse heading */
-.our-story .story-text h3 {
-    color: #063b91;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
-    margin: 35px 0 15px;
-    padding-left: 15px;
-    border-left: 4px solid #f5d58a;
-}
-
-/* Theme verse box */
-.our-story .theme-verse-text {
-    max-width: 750px;
-    background: rgba(6, 59, 145, 0.05);
-    border: 1px solid rgba(6, 59, 145, 0.15);
-    border-left: 5px solid #063b91;
-    padding: 25px 30px;
-    margin-bottom: 40px;
-    color: #0a2555;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-    line-height: 1.8;
-    border-radius: 0 8px 8px 0;
-    box-sizing: border-box;
-}
-
-/* Bible reference */
-.our-story .theme-verse-text span {
-    color: #063b91;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-/* Vision heading */
-.our-story .story-text h2:last-of-type {
-    margin-top: 20px;
-    font-size: 34px;
-}
-
-/* =========================================
-   PHONE
-   ========================================= */
-
-@media screen and (max-width: 768px) {
-
-    .our-story {
-        padding: 55px 22px !important;
-    }
-
-    .our-story .story-text {
-        width: 100%;
-        max-width: 100%;
-    }
-
-    .our-story .story-text h2 {
-        font-size: 34px;
-    }
-
-    .our-story .story-text h2:last-of-type {
-        font-size: 29px;
-    }
-
-    .our-story .story-text > p:not(.section-label):not(.theme-verse-text) {
-        font-size: 16px;
-        line-height: 1.7;
-    }
-
-    .our-story .story-text h3 {
-        font-size: 21px;
-        margin-top: 30px;
-    }
-
-    .our-story .theme-verse-text {
-        padding: 20px;
-        font-size: 16px;
-        line-height: 1.7;
-    }
+    background: red !important;
+    max-width: 600px !important;
+    margin: 0 auto !important;
+    padding: 30px !important;
 }
