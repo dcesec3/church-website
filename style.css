@@ -1516,14 +1516,146 @@ padding: 25px;
     width: 100% !important;
     clear: both !important;
 }
-/* ABOUT TEST */
+/* =========================================
+   ABOUT US - BLUE & GOLD DESIGN
+========================================= */
+
 .our-story {
-    background: yellow !important;
+    background: linear-gradient(
+        135deg,
+        #063b91 0%,
+        #0759c9 50%,
+        #0B2A5B 100%
+    ) !important;
+
+    padding: 80px 20px !important;
+    position: relative;
+    overflow: hidden;
 }
 
+/* Main text container */
 .our-story .story-text {
-    background: red !important;
-    max-width: 600px !important;
+    max-width: 900px !important;
     margin: 0 auto !important;
-    padding: 30px !important;
+    padding: 45px 50px !important;
+
+    background: rgba(255, 255, 255, 0.96) !important;
+    border-radius: 14px !important;
+
+    border: 2px solid rgba(245, 213, 138, 0.8) !important;
+
+    box-shadow:
+        0 12px 35px rgba(0, 0, 0, 0.25),
+        0 0 0 6px rgba(245, 213, 138, 0.12) !important;
+
+    position: relative;
+    z-index: 2;
+}
+
+/* Gold decorative line at the top */
+.our-story .story-text::before {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 4px;
+    background: #f5d58a;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+/* ABOUT US */
+.our-story .section-label {
+    color: #063b91 !important;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Main headings */
+.our-story .story-text h2 {
+    color: #063b91 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+/* Normal text */
+.our-story .story-text > p:not(.section-label):not(.theme-verse-text) {
+    color: #333 !important;
+    max-width: 700px;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* Theme verse heading */
+.our-story .story-text h3 {
+    color: #063b91 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    padding-left: 15px;
+    border-left: 4px solid #f5d58a;
+    margin: 35px 0 15px;
+}
+
+/* Theme verse */
+.our-story .theme-verse-text {
+    background: linear-gradient(
+        135deg,
+        rgba(245, 213, 138, 0.16),
+        rgba(245, 213, 138, 0.05)
+    ) !important;
+
+    border: 1px solid rgba(245, 213, 138, 0.8) !important;
+    border-left: 5px solid #f5d58a !important;
+
+    padding: 25px 30px !important;
+    border-radius: 0 10px 10px 0 !important;
+
+    color: #0B2A5B !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Bible reference */
+.our-story .theme-verse-text span {
+    color: #063b91 !important;
+    font-weight: bold;
+}
+
+
+/* =========================================
+   PHONE
+========================================= */
+
+@media screen and (max-width: 768px) {
+
+    .our-story {
+        padding: 50px 15px !important;
+    }
+
+    .our-story .story-text {
+        width: 100% !important;
+        padding: 30px 22px !important;
+        border-radius: 12px !important;
+    }
+
+    .our-story .story-text h2 {
+        font-size: 32px;
+    }
+
+    .our-story .story-text > p:not(.section-label):not(.theme-verse-text) {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .our-story .story-text h3 {
+        font-size: 20px;
+    }
+
+    .our-story .theme-verse-text {
+        padding: 20px !important;
+        font-size: 16px;
+    }
 }
