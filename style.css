@@ -1180,17 +1180,34 @@ padding: 25px;
         line-height: 1.7;
     }
 }
-    /* Leadership Background */
-.leadership {
-    background: #eef5ff !important;
-    color: #063b91;
-    padding: 60px 20px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
+   /* Fix Leadership Cards */
+.leaders {
+    display: flex !important;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 35px;
+    flex-wrap: nowrap;
 }
 
-.leadership-container {
-    position: relative;
-    z-index: 2;
+.leader-card {
+    width: 260px !important;
+    flex: 0 0 260px;
+    text-align: center;
+}
+
+.leader-card img {
+    width: 240px !important;
+    height: 270px !important;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+/* Leadership Message */
+.leadership-message h2 {
+    color: #063b91 !important;
+}
+
+.leadership-message p {
+    color: #333333 !important;
 }
