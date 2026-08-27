@@ -1176,3 +1176,69 @@ padding: 25px;
         line-height: 1.7;
     }
 }
+.our-story::before {
+    width: 380px;
+    height: 380px;
+    opacity: 0.045;
+}
+
+.leadership::before {
+    width: 400px;
+    height: 400px;
+    opacity: 0.045;
+}
+/* =========================
+   ABOUT + LEADERSHIP WATERMARK
+========================= */
+
+.our-story {
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.our-story::before {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-image: url("church-logo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.06;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.our-story .story-text,
+.our-story .story-image {
+    position: relative;
+    z-index: 1;
+}
+.leadership {
+    position: relative;
+    overflow: hidden;
+}
+
+.leadership::before {
+    content: "";
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    background-image: url("church-logo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.055;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.leadership-container {
+    position: relative;
+    z-index: 1;
+}
