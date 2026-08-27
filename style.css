@@ -1180,3 +1180,17 @@ padding: 25px;
         line-height: 1.7;
     }
 }
+    /* Leadership Background */
+.leadership {
+    background: #eef5ff !important;
+    color: #063b91;
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.leadership-container {
+    position: relative;
+    z-index: 2;
+}
