@@ -1015,7 +1015,41 @@ padding: 25px;
 ========================= */
 
 .leadership {
-    background-color: #ffffff;
+    background: linear-gradient(135deg, #f4f8ff 0%, #ffffff 50%, #eef5ff 100%);
+    color: #063b91;
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.leadership::before {
+    content: "";
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: rgba(6, 59, 145, 0.05);
+    border-radius: 50%;
+    top: -150px;
+    left: -150px;
+}
+
+.leadership::after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: rgba(245, 213, 138, 0.10);
+    border-radius: 50%;
+    bottom: -140px;
+    right: -120px;
+}
+
+.leadership-container {
+    max-width: 1050px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
     color: #063b91;
     padding: 60px 20px;
     text-align: center;
@@ -1047,7 +1081,15 @@ padding: 25px;
 .leader-card {
     width: 260px;
     text-align: center;
+    background: #ffffff;
+    padding: 15px 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(6, 59, 145, 0.10);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.leader-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(6, 59, 145, 0.16);
 
 .leader-card img {
     width: 240px;
