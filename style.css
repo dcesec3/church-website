@@ -999,3 +999,14 @@ padding: 25px;
         font-size: 9px;
     }
 }
+@media screen and (max-width:
+                   768px) {
+    .navbar .logo-text h2 {
+        font-size: 12px;
+        white-space: normal;
+        line-height: 1.1;
+    }
+    .navbar .logo-text {
+        max-width:230px;
+    }
+}
