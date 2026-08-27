@@ -1196,23 +1196,6 @@ padding: 25px;
     overflow: hidden;
     background-color: #ffffff;
 }
-
-.our-story::before {
-    content: "";
-    position: absolute;
-    width: 600px;
-    height: 600px;
-    background-image: url("church-logo.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    opacity: 0.06;
-    top: 50%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-}
-
 .our-story .story-text,
 .our-story .story-image {
     position: relative;
@@ -1239,6 +1222,37 @@ padding: 25px;
     pointer-events: none;
 }
 .leadership-container {
+    position: relative;
+    z-index: 1;
+}
+/* =========================
+   ABOUT US LOGO WATERMARK
+========================= */
+
+.our-story {
+    position: relative;
+    overflow: hidden;
+}
+
+.our-story::before {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-image: url("church-logo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.08;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.our-story .story-text,
+.our-story .story-image {
     position: relative;
     z-index: 1;
 }
