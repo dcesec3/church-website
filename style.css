@@ -31,6 +31,30 @@ body{
     letter-spacing: 2px;
     color: #FFFFFF;
 }
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.logo-text h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.logo-text span {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
 
 nav a {
     color: white;
@@ -895,5 +919,32 @@ padding: 25px;
     .visit-button {
         font-size: 13px !important;
         padding: 14px 20px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        height: 70px;
+        padding: 0 15px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .logo img {
+        width: 42px;
+        height: 42px;
+    }
+
+    .logo-text h2 {
+        font-size: 15px;
+        white-space: nowrap;
+    }
+
+    .logo-text span {
+        font-size: 10px;
     }
 }
