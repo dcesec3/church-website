@@ -1498,3 +1498,21 @@ padding: 25px;
         font-size: 12px !important;
     }
 }
+.our-story {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.leadership {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    clear: both !important;
+}
+
+.memory-photos {
+    display: block !important;
+    width: 100% !important;
+    clear: both !important;
+}
