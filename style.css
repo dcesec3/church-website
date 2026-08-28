@@ -251,6 +251,84 @@ nav a {
     font-weight: bold;
     letter-spacing: 1px;
 }
+/* Our Services Section */
+.services {
+    background-color: #0B2A5B;
+    color: white;
+    padding: 80px 7%;
+    text-align: center;
+}
+
+.services .section-label {
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.services h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    margin-bottom: 45px;
+}
+
+.service-group {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.service-group-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.sunday-services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.weekly-group {
+    margin-top: 55px;
+}
+
+.weekly-services {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service-card {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 25px 18px;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-card h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+.service-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.service-card span {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+}
 
 /*Give Section*/
 .give {
@@ -658,6 +736,63 @@ padding: 25px;
 
 .site-footer .copyright {
     font-size: 12px;
+}
+@media (max-width: 768px) {
+
+    .services {
+        padding: 60px 4%;
+    }
+
+    .services h2 {
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+
+    .service-group-title {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    /* Keep all 3 Sunday services in one row */
+    .sunday-services {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+
+    /* Weekly services: 2 + 2 + 1 */
+    .weekly-services {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .service-card {
+        padding: 18px 8px;
+        min-height: 100px;
+    }
+
+    .service-card h4 {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+
+    .service-card p {
+        font-size: 12px;
+    }
+
+    .service-card span {
+        font-size: 11px;
+    }
+
+    .weekly-group {
+        margin-top: 40px;
+    }
+
+    /* Center the fifth card */
+    .weekly-services .service-card:last-child {
+        grid-column: 1 / -1;
+        width: calc(50% - 5px);
+        justify-self: center;
+    }
 }
 
 /* CHURCH LOGO - GIVE SECTION ONLY */
