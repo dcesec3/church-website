@@ -1813,3 +1813,136 @@ padding: 25px;
         font-size: 16px;
     }
 }
+```css
+/* Sermons Section */
+.sermons {
+    background-color: #FFFFFF;
+    color: #0B2A5B;
+    padding: 80px 7%;
+    text-align: center;
+}
+
+.sermons-container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.sermons .section-label {
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.sermons h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.sermons-intro {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+.sermons-dropdown {
+    width: 100%;
+    text-align: left;
+}
+
+.sermons-dropdown summary {
+    background-color: #0B2A5B;
+    color: white;
+    padding: 18px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sermons-dropdown summary::-webkit-details-marker {
+    display: none;
+}
+
+.sermons-dropdown summary span {
+    font-size: 22px;
+}
+
+.sermons-list {
+    border: 1px solid #0B2A5B;
+    border-top: none;
+}
+
+.sermons-list a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 17px 22px;
+    color: #0B2A5B;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(11, 42, 91, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.sermons-list a:last-child {
+    border-bottom: none;
+}
+
+.sermons-list a:hover {
+    background-color: rgba(11, 42, 91, 0.08);
+}
+
+.sermons-list strong {
+    font-size: 15px;
+}
+
+.sermons-list span {
+    font-size: 13px;
+    font-weight: bold;
+    opacity: 0.75;
+}
+```
+```css
+/* Sermons - Mobile */
+@media (max-width: 768px) {
+
+    .sermons {
+        padding: 60px 5%;
+    }
+
+    .sermons h2 {
+        font-size: 32px;
+    }
+
+    .sermons-intro {
+        font-size: 14px;
+    }
+
+    .sermons-dropdown summary {
+        padding: 16px 18px;
+        font-size: 14px;
+    }
+
+    .sermons-list a {
+        display: block;
+        padding: 16px 18px;
+    }
+
+    .sermons-list strong {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .sermons-list span {
+        display: block;
+        font-size: 12px;
+    }
+}
+```
+
