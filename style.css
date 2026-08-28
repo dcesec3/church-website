@@ -566,7 +566,26 @@ color: #0B2A5B;
     font-size: 13px;
     line-height: 1.5;
 }
+/* Developer Credit */
+.developer-credit {
+    margin-top: 25px;
+    text-align: center;
+    opacity: 0.85;
+}
 
+.developer-credit p {
+    margin: 0 0 6px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.developer-credit span {
+    display: block;
+    font-size: 12px;
+    margin-top: 3px;
+    letter-spacing: 0.3px;
+}
 /* ==== MIBILE FIX ==== */
 @media (max-width: 768px) {
     /* NAVIGATION */
