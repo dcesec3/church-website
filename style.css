@@ -1306,7 +1306,7 @@ padding: 25px;
 .leader-card img {
     width: 230px;
     height: 260px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 8px;
     display: block;
     margin: 0 auto 15px;
@@ -1378,6 +1378,7 @@ padding: 25px;
     .leader-card img {
         width: 250px;
         height: 280px;
+        object-fit: contain;
     }
 
     .leadership-message {
