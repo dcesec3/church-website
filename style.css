@@ -2067,3 +2067,12 @@ padding: 25px;
     }
 
 }
+#main-nav a {
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#main-nav a:last-child {
+    border-right: none;
+}
